@@ -11,8 +11,8 @@ const Process = () => {
                   <p className="mt-4 text-neutral-500">Call our sevice numbers, email us or visit our office to book an appointment with us.</p>
               </div>
               <div className="w-full sm:w-1/2 sm:border-l lg:border-r lg:w-1/3 sm:px-4 py-2 mb-8">
-                  <h5 className="font-bold">Price Quoting</h5>
-                  <p className="mt-4 text-neutral-500">A formal offer of our services price list will be sent to you to choose which service to book.</p>
+                  <h5 className="font-bold">Price Negotiation</h5>
+                  <p className="mt-4 text-neutral-500">A formal offer of our services list with prices will be sent to you to choose which service to book.</p>
               </div>
               <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-8">
                   <h5 className="font-bold">Book Service</h5>
@@ -28,7 +28,7 @@ const Process = () => {
               </div>
               <div className="w-full sm:w-1/2 sm:border-l lg:border-l-0 lg:w-1/3 sm:px-4 py-2 mb-8">
                   <h5 className="font-bold">PAYMENT</h5>
-                  <p className="mt-4 text-neutral-500">Payment for the service is to be received in not more than 30 wroking days after the sevice has been completed. NB: For oil supply, payment is received before the service is rendered.</p>
+                  <p className="mt-4 text-neutral-500">Payment for the service is to be received in not more than 30 wroking days after the sevice has been completed. NB: For oil supply, full payment or 70% payment for the service is received before the service is rendered.</p>
               </div>
           </div>
       </div>

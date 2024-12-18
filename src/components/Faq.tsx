@@ -26,7 +26,7 @@ const Faqs = () => {
                         <AccordionItem value="item-3" className="md:py-8">
                             <AccordionTrigger className="md:text-xl">Is payment made before a service is rendered?</AccordionTrigger>
                             <AccordionContent>
-                                No. With the exception of Oil supply which payment must be made upfront before the service is rendered, payment for all other services can be made within 30 working days after the service have been rendered.
+                                No. With the exception of Oil supply which full payment or 70% payment for the service must be made upfront before the service is rendered, payment for all other services can be made within 30 working days after the service have been rendered.
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

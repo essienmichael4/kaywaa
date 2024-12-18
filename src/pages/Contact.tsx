@@ -16,7 +16,9 @@ const Contact = () => {
                         </h2>
                     </div>
                     <div className="p-2 w-full lg:w-1/2">
-                        <img src={shipping} alt="" className="rounded-lg aspect-video border border-blue-700 shadow shadow-blue-400"/>
+                        <div className="rounded-lg aspect-video border border-blue-700 shadow shadow-blue-400">
+                            <img src={shipping} alt="" className="rounded-lg aspect-video "/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -30,7 +32,7 @@ const Contact = () => {
                             <div className="bg-blue-700/50 w-10 h-10 flex items-center justify-center rounded-full">
                                 <MailCheck className="text-blue-700 w-5 h-5"/>
                             </div>
-                            <p className="font-bold mt-12 text-lg">Send us message</p>
+                            <p className="font-bold mt-12 text-lg">Send us a message</p>
                             <p className="text-xs mt-3">Chat with our friendly team</p>
                             <p className="text-sm mt-16">kaywaashipping@gmail.com</p>
                             <p className="text-sm mt-2">brightacolatse@yahoo.com</p>
@@ -54,7 +56,7 @@ const Contact = () => {
                             <div className="bg-blue-700/50 w-10 h-10 flex items-center justify-center rounded-full">
                                 <MapPinned className="text-blue-700 w-5 h-5"/>
                             </div>
-                            <p className="font-bold mt-3 text-lg">Vists our office</p>
+                            <p className="font-bold mt-3 text-lg">Visit our office</p>
                             <p className="text-xs mt-3">Ghana Post Address.</p>
                             <p className="text-sm mt-2">W113 EAGLE RAY ST</p>
                             <p className="text-sm mt-2">GT-370-3050</p>

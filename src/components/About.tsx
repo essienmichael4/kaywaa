@@ -45,7 +45,9 @@ const About = () => {
                 </h2>
                 <div className="mt-12 flex flex-wrap">
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
-                        <img src={chandelling} alt="" className="rounded-lg aspect-video" />
+                        <div className="rounded-lg aspect-video">
+                            <img src={chandelling} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Ship Chandelling</h4>
                             <p className="text-xs text-blue-700">Ashore & Offshore</p>
@@ -55,7 +57,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={oil} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Oil Bunkering</h4>
                             <p className="text-xs text-blue-700">Offshore</p>
@@ -65,7 +69,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={water} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Fresh Water Bunkering</h4>
                             <p className="text-xs text-blue-700">Offshore</p>
@@ -75,7 +81,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={shipbroking} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Ship Broking</h4>
                         </div>
@@ -84,7 +92,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={oilbroking} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Oil Broking</h4>
                         </div>
@@ -93,7 +103,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={lubricant} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Lubricant Supply</h4>
                         </div>
@@ -102,7 +114,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={maintenance} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Ship Maintenance</h4>
                         </div>
@@ -111,7 +125,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={painting} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Marine Paint Supply</h4>
                         </div>
@@ -120,7 +136,9 @@ const About = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 lg:w-1/3 sm:px-4 py-2 mb-4 sm:mb-8">
+                        <div className="rounded-lg aspect-video">
                         <img src={ropes} alt="" className="rounded-lg aspect-video" />
+                        </div>
                         <div className="text-left mt-2">
                             <h4 className="text-xl font-bold">Ship Ropes and Wires</h4>
                         </div>
